@@ -1,0 +1,109 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "fb066ca8cddd552451bc67b31a8c723d",
+    "packages": [
+        {
+            "name": "carica/phpcss",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThomasWeinert/PhpCss.git",
+                "reference": "df4e6884f14038af707fc2d518895ca95858dcb2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/df4e6884f14038af707fc2d518895ca95858dcb2",
+                "reference": "df4e6884f14038af707fc2d518895ca95858dcb2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpCss\\": "src/PhpCss"
+                },
+                "files": [
+                    "src/PhpCss.php"
+                ]
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT license"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Weinert",
+                    "email": "thomas@weinert.info"
+                }
+            ],
+            "description": "An css selector parser and converter",
+            "time": "2014-06-23 08:25:18"
+        },
+        {
+            "name": "fluentdom/fluentdom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FluentDOM/FluentDOM.git",
+                "reference": "22543dc0052cfb78808574e3d667fe23c5029a2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/22543dc0052cfb78808574e3d667fe23c5029a2f",
+                "reference": "22543dc0052cfb78808574e3d667fe23c5029a2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "carica/phpcss": "Allows to use css selectors with FluentDOM::QueryCss().",
+                "symfony/css-selector": "Allows to use css selectors with FluentDOM::QueryCss()."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/FluentDOM.php"
+                ],
+                "psr-4": {
+                    "FluentDOM\\": "src/FluentDOM"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FluentDOM Contributors",
+                    "homepage": "https://github.com/FluentDOM/FluentDOM/contributors"
+                }
+            ],
+            "description": "A fluent api for the php dom extension.",
+            "homepage": "http://fluentdom.org",
+            "keywords": [
+                "dom",
+                "jquery",
+                "xml"
+            ],
+            "time": "2015-02-24 21:58:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fluentdom/fluentdom": 20,
+        "carica/phpcss": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

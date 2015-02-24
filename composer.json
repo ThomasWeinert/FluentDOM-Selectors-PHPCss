@@ -1,0 +1,26 @@
+{
+    "name": "fluentdom/selectors-phpcss",
+    "type": "library",
+    "description": "Provides CSS selector for FluentDOM using Carica PHPCss.",
+    "keywords": ["xml","dom","jquery", "css", "css selectors"],
+    "license": "MIT",
+    "homepage": "http://fluentdom.org",
+    "authors": [
+        {
+            "name": "FluentDOM Contributors",
+            "homepage": "https://github.com/FluentDOM/FluentDOM/contributors"
+        }
+    ],
+    "provide": {
+        "fluentdom/css-selector" : "1.0.0"
+    },
+    "require": {
+        "fluentdom/fluentdom": "*@dev",
+        "carica/phpcss": "*@dev"
+    },
+    "autoload": {
+        "psr-4" : {
+            "FluentDOM\\PhpCss\\" : "src/"
+        }
+    }
+}
