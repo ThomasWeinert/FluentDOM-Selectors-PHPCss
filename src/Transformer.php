@@ -11,8 +11,8 @@ namespace FluentDOM\PhpCss {
       return \PhpCss::toXpath(
         $selector,
         $isDocumentContext
-          ? Xpath::OPTION_USE_CONTEXT_SELF
-          : Xpath::OPTION_USE_CONTEXT_DOCUMENT
+          ? Xpath::OPTION_USE_CONTEXT_DOCUMENT
+          : Xpath::OPTION_USE_CONTEXT_SELF
       );
     }
   }

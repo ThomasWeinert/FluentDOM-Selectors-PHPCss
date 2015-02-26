@@ -16,9 +16,10 @@
     },
     "require": {
         "fluentdom/fluentdom": "*@dev",
-        "carica/phpcss": "*@dev"
+        "carica/phpcss": "~0.2"
     },
     "autoload": {
+        "files" : ["src/plugin.php"],
         "psr-4" : {
             "FluentDOM\\PhpCss\\" : "src/"
         }

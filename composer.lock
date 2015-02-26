@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "500bdf7b83ef0c19f7b97099d258dcf2",
+    "hash": "e23742bb2ab1d9aaecb5c60592131544",
     "packages": [
         {
             "name": "carica/phpcss",
@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "285d8edcaaeeea8afc52e23b94121b5875e66c37"
+                "reference": "67ff2245fb6dc76f4eea6008b542b3bb30a2e1f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/285d8edcaaeeea8afc52e23b94121b5875e66c37",
-                "reference": "285d8edcaaeeea8afc52e23b94121b5875e66c37",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/67ff2245fb6dc76f4eea6008b542b3bb30a2e1f7",
+                "reference": "67ff2245fb6dc76f4eea6008b542b3bb30a2e1f7",
                 "shasum": ""
             },
             "require": {
@@ -92,7 +92,7 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-02-24 23:30:01"
+            "time": "2015-02-26 17:51:28"
         }
     ],
     "packages-dev": [],
