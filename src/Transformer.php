@@ -8,12 +8,15 @@ namespace FluentDOM\PhpCss {
   class Transformer implements TransformerInterface {
 
     public function toXPath($selector, $isDocumentContext = FALSE, $isHtml = FALSE) {
-      return \PhpCss::toXpath(
-        $selector,
-        $isDocumentContext
-          ? Xpath::OPTION_USE_CONTEXT_DOCUMENT
-          : Xpath::OPTION_USE_CONTEXT_SELF
-      );
+      $options = 0;
+      if ($isDocumentContext) {
+        $options |= Xpath::OPTION_USE_DOCUMENT_CONTEXT;
+      }
+      if (!$isHtml) {
+        $options |= Xpath::OPTION_EXPLICT_NAMESPACES;
+      }
+      $result = \PhpCss::toXpath($selector, $options);
+      return $result;
     }
   }
 }
