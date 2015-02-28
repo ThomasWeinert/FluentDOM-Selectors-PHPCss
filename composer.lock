@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e0e1034817269c7f0976982c5fbe45e0",
+    "hash": "9d45f0ec4fa3ce851e7453d27bb74f17",
     "packages": [
         {
             "name": "carica/phpcss",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ThomasWeinert/PhpCss.git",
-                "reference": "3b65bbf827b7c0cf8340de5614726c10aa409fe2"
+                "reference": "df4e6884f14038af707fc2d518895ca95858dcb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/3b65bbf827b7c0cf8340de5614726c10aa409fe2",
-                "reference": "3b65bbf827b7c0cf8340de5614726c10aa409fe2",
+                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/df4e6884f14038af707fc2d518895ca95858dcb2",
+                "reference": "df4e6884f14038af707fc2d518895ca95858dcb2",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                     "src/PhpCss.php"
                 ]
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT license"
             ],
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "An css selector parser and converter",
-            "time": "2014-06-13 20:40:24"
+            "time": "2014-06-23 08:25:18"
         },
         {
             "name": "fluentdom/fluentdom",
