@@ -13,7 +13,7 @@ namespace FluentDOM\PhpCss {
         $options |= Xpath::OPTION_EXPLICIT_NAMESPACES;
       }
       $result = \PhpCss::toXpath($selector, $options);
-      return $result;
+      return $isDocumentContext ? $result : './'.$result;
     }
   }
 }
