@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "74f406a080b6880c7b11d016e25ccfdda37173e7"
+                "reference": "9e5ad19debb45eb7666c7337cfee7af0927f261d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/74f406a080b6880c7b11d016e25ccfdda37173e7",
-                "reference": "74f406a080b6880c7b11d016e25ccfdda37173e7",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/9e5ad19debb45eb7666c7337cfee7af0927f261d",
+                "reference": "9e5ad19debb45eb7666c7337cfee7af0927f261d",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-02-27 17:36:00"
+            "time": "2015-03-01 13:22:21"
         }
     ],
     "packages-dev": [],
