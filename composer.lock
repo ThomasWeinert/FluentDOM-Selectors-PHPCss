@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9d45f0ec4fa3ce851e7453d27bb74f17",
+    "hash": "84cd431455e77167f592fbea506b0107",
     "packages": [
         {
             "name": "carica/phpcss",
@@ -47,16 +47,16 @@
         },
         {
             "name": "fluentdom/fluentdom",
-            "version": "dev-master",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "9e5ad19debb45eb7666c7337cfee7af0927f261d"
+                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/9e5ad19debb45eb7666c7337cfee7af0927f261d",
-                "reference": "9e5ad19debb45eb7666c7337cfee7af0927f261d",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/19c5a3c77c91871d2a2545949b5bde20889fcb45",
+                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45",
                 "shasum": ""
             },
             "require": {
@@ -93,15 +93,13 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-03-01 13:22:21"
+            "time": "2015-07-07 13:34:07"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "fluentdom/fluentdom": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
