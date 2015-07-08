@@ -16,7 +16,7 @@ HTML;
 $document = new FluentDOM\Document();
 $document->loadHTML($html);
 
-echo 'Iterator over list items:', "\n";
+echo 'Iterate over list items:', "\n";
 foreach ($document->querySelectorAll('li') as $li) {
   var_dump((string)$li);
 }
@@ -29,7 +29,7 @@ var_dump(
 /*
 Expected Output:
 
-Iterator over list items:
+Iterate over list items:
 string(3) "one"
 string(3) "two"
 string(5) "three"
