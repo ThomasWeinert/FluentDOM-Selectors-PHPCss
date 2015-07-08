@@ -35,5 +35,29 @@ namespace FluentDOM\PhpCss {
           ->addClass('red')
       );
     }
+
+    public function testFindSpanInPFilterByAClassAddAClassInHtmlMode() {
+      $html =
+        '<body>
+            <p><span>Hello</span>, how are you?</p>
+            <p>Me? I\'m <span class="mark">good</span>.</p>
+          </body>';
+
+      $result = \FluentDOM::QueryCss($html, 'text/html')
+          ->find('p')
+          ->find('span')
+          ->filter('.mark')
+          ->addClass('red');
+
+      $this->assertXmlStringEqualsXmlString(
+        '<html>
+          <body>
+            <p><span>Hello</span>, how are you?</p>
+            <p>Me? I\'m <span class="mark red">good</span>.</p>
+          </body>
+        </html>',
+        $result->document->saveXML()
+      );
+    }
   }
 }

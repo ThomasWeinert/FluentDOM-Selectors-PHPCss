@@ -14,9 +14,9 @@ namespace FluentDOM\PhpCss {
         self::CONTEXT_CHILDREN => 0
       ];
       $options = $map[$contextMode];
-      if (!$isHtml) {
-        $options |= Xpath::OPTION_EXPLICIT_NAMESPACES;
-      }
+      $options |= $isHtml
+        ? Xpath::OPTION_LOWERCASE_ELEMENTS
+        : Xpath::OPTION_EXPLICIT_NAMESPACES;
       $result = \PhpCss::toXpath($selector, $options);
       return $result;
     }

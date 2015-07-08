@@ -3,7 +3,7 @@
          backupStaticAttributes="false"
          syntaxCheck="false">
   <testsuites>
-    <testsuite name="FluentDOM PHPCss">
+    <testsuite name="FluentDOM PHPCss Selectors">
       <directory suffix="Test.php">tests</directory>
     </testsuite>
   </testsuites>
