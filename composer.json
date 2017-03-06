@@ -15,7 +15,7 @@
         "fluentdom/css-selector" : "1.0.0"
     },
     "require": {
-        "fluentdom/fluentdom": "^5.3||^6.0",
+        "fluentdom/fluentdom": "^5.3||^6.0||^6.1",
         "carica/phpcss": "~0.3"
     },
     "autoload": {
