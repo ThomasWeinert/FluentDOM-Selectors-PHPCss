@@ -14,8 +14,13 @@
     "provide": {
         "fluentdom/css-selector" : "1.0.0"
     },
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
     "require": {
-        "fluentdom/fluentdom": "^5.3||^6.0||^6.1",
+        "fluentdom/fluentdom": "^5.3||6.x",
         "carica/phpcss": "~0.3"
     },
     "autoload": {

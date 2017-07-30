@@ -2,9 +2,11 @@
 
 namespace FluentDOM\PhpCss {
 
-  require_once(__DIR__.'/../../vendor/autoload.php');
+  use PHPUnit\Framework\TestCase;
 
-  class FindTest extends \PHPUnit_Framework_TestCase {
+  require_once __DIR__.'/../../vendor/autoload.php';
+
+  class FindTest extends TestCase {
 
     public function testFindSpanInPFilterByAClassAddAClass() {
       $xml =
@@ -28,7 +30,7 @@ namespace FluentDOM\PhpCss {
             <p>Me? I\'m <span class="mark red">good</span>.</p>
           </body>
         </html>',
-        \FluentDOM::QueryCss($xml)
+        (string)\FluentDOM::QueryCss($xml)
           ->find('p')
           ->find('span')
           ->filter('.mark')

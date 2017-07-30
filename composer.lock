@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "84cd431455e77167f592fbea506b0107",
+    "content-hash": "e635dd4a1749eea9f1cc6623fa878f63",
     "packages": [
         {
             "name": "carica/phpcss",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ThomasWeinert/PhpCss.git",
-                "reference": "df4e6884f14038af707fc2d518895ca95858dcb2"
+                "reference": "1e044684052d9456eaabbe796a10165e04614f79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/df4e6884f14038af707fc2d518895ca95858dcb2",
-                "reference": "df4e6884f14038af707fc2d518895ca95858dcb2",
+                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/1e044684052d9456eaabbe796a10165e04614f79",
+                "reference": "1e044684052d9456eaabbe796a10165e04614f79",
                 "shasum": ""
             },
             "require": {
@@ -43,25 +43,25 @@
                 }
             ],
             "description": "An css selector parser and converter",
-            "time": "2014-06-23 08:25:18"
+            "time": "2016-08-09T11:48:58+00:00"
         },
         {
             "name": "fluentdom/fluentdom",
-            "version": "5.3.0",
+            "version": "6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45"
+                "reference": "32063e121ebbb0bd2fdf21a273a8e0184aba59e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/19c5a3c77c91871d2a2545949b5bde20889fcb45",
-                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/32063e121ebbb0bd2fdf21a273a8e0184aba59e7",
+                "reference": "32063e121ebbb0bd2fdf21a273a8e0184aba59e7",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "php": ">=5.4.0"
+                "php": ">=5.6.0"
             },
             "suggest": {
                 "fluentdom/css-selector": "Allows to use css selectors."
@@ -93,7 +93,7 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-07-07 13:34:07"
+            "time": "2017-07-29T17:49:41+00:00"
         }
     ],
     "packages-dev": [],
@@ -103,5 +103,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.6"
+    }
 }
