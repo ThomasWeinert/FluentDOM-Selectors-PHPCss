@@ -7,7 +7,7 @@ namespace FluentDOM\PhpCss {
 
   class Transformer implements TransformerInterface {
 
-    public function toXPath($selector, $contextMode = self::CONTEXT_CHILDREN, $isHtml = FALSE) {
+    public function toXPath(string $selector, int $contextMode = self::CONTEXT_CHILDREN, bool $isHtml = FALSE) {
       $map = [
         self::CONTEXT_DOCUMENT => Xpath::OPTION_USE_CONTEXT_DOCUMENT,
         self::CONTEXT_SELF => Xpath::OPTION_USE_CONTEXT_SELF,
@@ -17,8 +17,7 @@ namespace FluentDOM\PhpCss {
       $options |= $isHtml
         ? Xpath::OPTION_LOWERCASE_ELEMENTS
         : Xpath::OPTION_EXPLICIT_NAMESPACES;
-      $result = \PhpCss::toXpath($selector, $options);
-      return $result;
+      return \PhpCss::toXpath($selector, $options);
     }
   }
 }

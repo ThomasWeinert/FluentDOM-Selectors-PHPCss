@@ -12,15 +12,15 @@
         }
     ],
     "provide": {
-        "fluentdom/css-selector" : "1.0.0"
+        "fluentdom/css-selector" : "1.1.0"
     },
     "config": {
         "platform": {
-            "php": "5.6"
+            "php": "7.0"
         }
     },
     "require": {
-        "fluentdom/fluentdom": "^5.3||6.x",
+        "fluentdom/fluentdom": "7.x",
         "carica/phpcss": "~0.3"
     },
     "autoload": {
