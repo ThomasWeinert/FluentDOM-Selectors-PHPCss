@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f53c7c4d77abaefc9204c189dd6b827",
+    "content-hash": "7aae48eb8a066de6ceacc8e2dd58546f",
     "packages": [
         {
             "name": "carica/phpcss",
-            "version": "0.4.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ThomasWeinert/PhpCss.git",
-                "reference": "1e044684052d9456eaabbe796a10165e04614f79"
+                "reference": "ae8b6da93bf05d41cde017115e3cf5f02138c121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/1e044684052d9456eaabbe796a10165e04614f79",
-                "reference": "1e044684052d9456eaabbe796a10165e04614f79",
+                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/ae8b6da93bf05d41cde017115e3cf5f02138c121",
+                "reference": "ae8b6da93bf05d41cde017115e3cf5f02138c121",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": ">=7.0"
             },
             "type": "library",
             "autoload": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "An css selector parser and converter",
-            "time": "2016-08-09T11:48:58+00:00"
+            "time": "2018-04-02T15:31:38+00:00"
         },
         {
             "name": "fluentdom/fluentdom",

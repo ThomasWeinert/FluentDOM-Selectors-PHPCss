@@ -29,13 +29,13 @@ namespace FluentDOM\PhpCss {
       return [
         ['.//p', 'p', Transformer::CONTEXT_CHILDREN, FALSE],
         ['//p', 'p', Transformer::CONTEXT_DOCUMENT, FALSE],
-        ['descendant-or-self::p', 'p', Transformer::CONTEXT_SELF, FALSE],
+        ['self::p', 'p', Transformer::CONTEXT_SELF, FALSE],
         ['.//P', 'P', Transformer::CONTEXT_CHILDREN, FALSE],
         ['//P', 'P', Transformer::CONTEXT_DOCUMENT, FALSE],
-        ['descendant-or-self::P', 'P', Transformer::CONTEXT_SELF, FALSE],
+        ['self::P', 'P', Transformer::CONTEXT_SELF, FALSE],
         ['.//*[local-name() = "p"]', 'P', Transformer::CONTEXT_CHILDREN, TRUE],
         ['//*[local-name() = "p"]', 'P', Transformer::CONTEXT_DOCUMENT, TRUE],
-        ['descendant-or-self::*[local-name() = "p"]', 'P', Transformer::CONTEXT_SELF, TRUE]
+        ['self::*[local-name() = "p"]', 'P', Transformer::CONTEXT_SELF, TRUE]
       ];
     }
   }

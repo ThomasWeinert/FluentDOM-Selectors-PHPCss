@@ -10,7 +10,7 @@ namespace FluentDOM\PhpCss {
     public function toXPath(string $selector, int $contextMode = self::CONTEXT_CHILDREN, bool $isHtml = FALSE) {
       $map = [
         self::CONTEXT_DOCUMENT => Xpath::OPTION_USE_CONTEXT_DOCUMENT,
-        self::CONTEXT_SELF => Xpath::OPTION_USE_CONTEXT_SELF,
+        self::CONTEXT_SELF => Xpath::OPTION_USE_CONTEXT_SELF_LIMIT,
         self::CONTEXT_CHILDREN => 0
       ];
       $options = $map[$contextMode];
