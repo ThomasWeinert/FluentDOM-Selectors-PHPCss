@@ -15,11 +15,11 @@ matrix:
 before_install:
   - composer self-update
   - composer clear-cache
-  - wget https://phar.phpunit.de/phpunit.phar
+  - wget -O phpunit.phar https://phar.phpunit.de/phpunit-6.phar
 
 install: composer install
 
-script: php phpunit.phar --configuration phpunit.xml.dist
+script: php phpunit.phar tests
 
 notifications:
   webhooks:
