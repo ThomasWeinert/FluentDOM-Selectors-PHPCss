@@ -1,6 +1,6 @@
 # FluentDOM: Selectors PHPCss
 
-[![Build Status](https://travis-ci.org/ThomasWeinert/Selectors-PHPCss.svg?branch=master)](https://travis-ci.org/ThomasWeinert/Selectors-PHPCss)
+[![Build Status](https://travis-ci.org/ThomasWeinert/Selectors-PHPCss.svg?branch=master)](https://travis-ci.org/ThomasWeinert/FluentDOM-Selectors-PHPCss)
 [![License](https://poser.pugx.org/fluentdom/selectors-phpcss/license.svg)](https://packagist.org/packages/fluentdom/selectors-phpcss)
 [![Total Downloads](https://poser.pugx.org/fluentdom/selectors-phpcss/downloads.svg)](https://packagist.org/packages/fluentdom/selectors-phpcss)
 [![Latest Stable Version](https://poser.pugx.org/fluentdom/selectors-phpcss/v/stable.svg)](https://packagist.org/packages/fluentdom/selectors-phpcss)
