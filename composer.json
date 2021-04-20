@@ -20,8 +20,8 @@
         }
     },
     "require": {
-        "fluentdom/fluentdom": "7.x",
-        "carica/phpcss": "~0.5"
+        "fluentdom/fluentdom": ">=7.0",
+        "carica/phpcss": "^1.0"
     },
     "autoload": {
         "files" : ["src/plugin.php"],
