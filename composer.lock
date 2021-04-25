@@ -1,27 +1,27 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7aae48eb8a066de6ceacc8e2dd58546f",
+    "content-hash": "99389b3b224bcd8cbc42e5f050354828",
     "packages": [
         {
             "name": "carica/phpcss",
-            "version": "0.5.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ThomasWeinert/PhpCss.git",
-                "reference": "ae8b6da93bf05d41cde017115e3cf5f02138c121"
+                "reference": "944cdd0cf21655ceb1bd3262dee9b33602020c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/ae8b6da93bf05d41cde017115e3cf5f02138c121",
-                "reference": "ae8b6da93bf05d41cde017115e3cf5f02138c121",
+                "url": "https://api.github.com/repos/ThomasWeinert/PhpCss/zipball/944cdd0cf21655ceb1bd3262dee9b33602020c09",
+                "reference": "944cdd0cf21655ceb1bd3262dee9b33602020c09",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.2"
             },
             "type": "library",
             "autoload": {
@@ -34,7 +34,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT license"
+                "MIT"
             ],
             "authors": [
                 {
@@ -43,27 +43,38 @@
                 }
             ],
             "description": "An css selector parser and converter",
-            "time": "2018-04-02T15:31:38+00:00"
+            "support": {
+                "issues": "https://github.com/ThomasWeinert/PhpCss/issues",
+                "source": "https://github.com/ThomasWeinert/PhpCss/tree/2.0.0"
+            },
+            "time": "2021-04-25T14:14:13+00:00"
         },
         {
             "name": "fluentdom/fluentdom",
-            "version": "7.0.0",
+            "version": "8.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "fda8452ef698d1ae644d3938513b33d9c3d86eb7"
+                "url": "https://github.com/ThomasWeinert/FluentDOM.git",
+                "reference": "22ee56352bb5fd0bc41ccf7906780aabc2bccf33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/fda8452ef698d1ae644d3938513b33d9c3d86eb7",
-                "reference": "fda8452ef698d1ae644d3938513b33d9c3d86eb7",
+                "url": "https://api.github.com/repos/ThomasWeinert/FluentDOM/zipball/22ee56352bb5fd0bc41ccf7906780aabc2bccf33",
+                "reference": "22ee56352bb5fd0bc41ccf7906780aabc2bccf33",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "php": ">=7.0"
+                "ext-libxml": "*",
+                "php": "~7.2 || ~8.0"
+            },
+            "require-dev": {
+                "ext-simplexml": "*",
+                "ext-xmlreader": "*",
+                "ext-xmlwriter": "*"
             },
             "suggest": {
+                "ext-json": "JSON support, needed for several loaders/serializers",
                 "ext-xmlreader": "XMLReader, XML pull parser, read large XMLs",
                 "ext-xmlwriter": "XMLWriter, Write large XMLs",
                 "fluentdom/css-selector": "Allows to use css selectors."
@@ -97,7 +108,11 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2017-10-01T10:41:43+00:00"
+            "support": {
+                "issues": "https://github.com/ThomasWeinert/FluentDOM/issues",
+                "source": "https://github.com/ThomasWeinert/FluentDOM/tree/8.0.0"
+            },
+            "time": "2021-04-18T18:12:11+00:00"
         }
     ],
     "packages-dev": [],
@@ -109,6 +124,7 @@
     "platform": [],
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.0"
-    }
+        "php": "7.2"
+    },
+    "plugin-api-version": "2.0.0"
 }

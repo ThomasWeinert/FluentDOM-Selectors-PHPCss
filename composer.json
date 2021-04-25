@@ -16,12 +16,12 @@
     },
     "config": {
         "platform": {
-            "php": "7.0"
+            "php": "7.2"
         }
     },
     "require": {
-        "fluentdom/fluentdom": "7.x",
-        "carica/phpcss": "~0.5"
+        "fluentdom/fluentdom": "^8.0.0",
+        "carica/phpcss": "^2.0.0"
     },
     "autoload": {
         "files" : ["src/plugin.php"],
