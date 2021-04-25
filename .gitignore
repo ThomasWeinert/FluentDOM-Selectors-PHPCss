@@ -15,4 +15,6 @@ vendor
 
 /build
 
+/tools/*.bat
 /phpunit.xml
+/.phpunit.result.cache
